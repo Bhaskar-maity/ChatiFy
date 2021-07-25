@@ -1,12 +1,21 @@
 # ChatiFy
 [![](https://img.shields.io/static/v1?message=Front-end&label=react&logo=react&color=skyblue&style=for-the-badge)](https://reactjs.org/)
 [![](https://img.shields.io/static/v1?message=Back-end&label=NodeJS&logo=javascript&color=orange&style=for-the-badge)](https://nodejs.org/en/)
-[![License: MIT](https://img.shields.io/github/license/SparshJain2000/blogApp?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/github/license/Bhaskar-maity/ChatiFy?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhaskar-maity.ChatiFy)
 
-Chatting web App .
- 
+Chatting web App using Socket.io,  ReactJs .
+
+## Demo
+Check out the demo gif for a quick example of how  works.
+
+![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/demo.gif)
+
+## Screenshots
+![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/Screenshot%201.png)
+![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/Screenshot%202.png)
+
 ## Technologies Used -
  ###### Back-end : Node  js, Express JS
  ###### Front-end : ReactJS
