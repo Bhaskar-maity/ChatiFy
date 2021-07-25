@@ -9,6 +9,10 @@ const io = require("socket.io")(httpServer, {
 const PORT = 7000;
 io.on("connection", (socket) => {
    console.log("socket connected at id " + socket.id);
+
+   socket.on("disconnect", () => {
+      console.log(`${socket.id} socket disconnected  `);
+   });
 });
 
 httpServer.listen(PORT, () => {
