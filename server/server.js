@@ -6,7 +6,11 @@ const io = require("socket.io")(httpServer, {
       methods: ["GET", "POST"],
    },
 });
-const PORT = 7000;
+const cors = require("cors");
+app.use(cors());
+
+const PORT = 7000 || process.env.PORT;
+
 io.on("connection", (socket) => {
    console.log("socket connected at id " + socket.id);
 

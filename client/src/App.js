@@ -1,7 +1,7 @@
 import "./App.css";
 import { io } from "socket.io-client";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Join } from "./component/Join/Join";
+import Join from "./component/Join/Join";
 import { Chat } from "./component/Chat/Chat";
 
 const socket = io(`http://localhost:7000`);

@@ -1,9 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import "./Join.css";
+import logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
-export const Join = () => {
+let user;
+
+const sendUser = () => {
+   user = document.getElementById("joinInput").value;
+   document.getElementById("joinInput").value = "";
+};
+
+const Join = () => {
+   const [name, setname] = useState("");
+
    return (
-      <div>
-         <h1>Join</h1>
+      <div className="JoinPage">
+         <div className="JoinContainer">
+            <img src={logo} alt="logo" className="logo" />
+            <h1>CHATIFY</h1>
+            <input
+               onChange={(e) => setname(e.target.value)}
+               placeholder="Enter Your Name"
+               type="text"
+               id="joinInput"
+            />
+            <Link
+               onClick={(event) => (!name ? event.preventDefault() : null)}
+               to="/chat"
+            >
+               {" "}
+               <button onClick={sendUser} className="joinbtn">
+                  Login In
+               </button>
+            </Link>
+         </div>
       </div>
    );
 };
+
+export default Join;
+export { user };
