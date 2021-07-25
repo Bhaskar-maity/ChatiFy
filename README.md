@@ -5,7 +5,9 @@
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhaskar-maity.ChatiFy)
 
-Chatting web App using Socket.io,  ReactJs .
+Chatting web App using Socket.io,  ReactJs.
+
+# See it live here [ChatiFy](https://chatify342.netlify.app/)
 
 ## Demo
 Check out the demo gif for a quick example of how  works.
