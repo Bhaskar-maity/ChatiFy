@@ -30,7 +30,7 @@ const Join = () => {
             >
                {" "}
                <button onClick={sendUser} className="joinbtn">
-                  Login In
+                  Log In
                </button>
             </Link>
          </div>
