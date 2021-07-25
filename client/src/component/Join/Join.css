@@ -48,7 +48,7 @@
    font-family: "Roboto";
    outline: none;
    font-size: 1.2vmax;
-   background-color: crimson;
+   background-color: #c31783;
    box-sizing: border-box;
    transition: all 0.3s;
    cursor: pointer;
