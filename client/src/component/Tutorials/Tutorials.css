@@ -1,0 +1,31 @@
+.tutorial-container {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 45%;
+   margin-top: 15px;
+}
+
+.sliderimg {
+   border-radius: 10px;
+   width: 100%;
+   height: 230px;
+   transition: transform 0.2s;
+}
+.sliderimg:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+   .tutorial-container {
+      position: relative;
+      top: 0;
+      right: 0;
+      width: 100%;
+   }
+   .sliderimg {
+      height: auto;
+      padding: 5px;
+   }
+}
