@@ -17,16 +17,16 @@ const Join = () => {
       <div className="JoinPage">
          <div className="JoinContainer">
             <img src={logo} alt="logo" className="logo" />
-            <h1>ChatiFy</h1>
+            <h1>संस्कृत-फाई</h1>
             <input
                onChange={(e) => setname(e.target.value)}
-               placeholder="Enter Your Name"
+               placeholder="नाम"
                type="text"
                id="joinInput"
             />
             <Link
                onClick={(event) => (!name ? event.preventDefault() : null)}
-               to="/chat"
+               to={`/chat?name=${name}&room=${"admin"}`}
             >
                {" "}
                <button onClick={sendUser} className="joinbtn">
