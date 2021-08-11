@@ -32,7 +32,7 @@ io.on("connect", (socket) => {
 
       socket.emit("message", {
          user: "admin",
-         text: `${firstName}, welcome to SansMeet. If you are using mobile please open Hindi keyboard.`,
+         text: `${firstName}, welcome to Sanskrit-Fy.`,
       });
       socket.broadcast
          .to(user.room)
