@@ -1,22 +1,22 @@
-# ChatiFy
+# SanskritFy
 [![](https://img.shields.io/static/v1?message=Front-end&label=react&logo=react&color=skyblue&style=for-the-badge)](https://reactjs.org/)
 [![](https://img.shields.io/static/v1?message=Back-end&label=NodeJS&logo=javascript&color=orange&style=for-the-badge)](https://nodejs.org/en/)
 
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhaskar-maity.ChatiFy)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhaskar-maity.SanskritFy)
 
 Chatting web App using Socket.io,  ReactJs.
 
-# See it live here [ChatiFy](https://chatify342.netlify.app/)
+# See it live here [SanskritFy](https://sanskrit-fy.netlify.app/)
 
 ## Demo
 Check out the demo gif for a quick example of how  works.
 
-![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/demo.gif)
+![screenshot](https://github.com/Bhaskar-maity/SanskritFy/blob/master/demo.gif)
 
 ## Screenshots
-![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/Screenshot%201.png)
-![screenshot](https://github.com/Bhaskar-maity/ChatiFy/blob/master/Screenshot%202.png)
+![screenshot](https://github.com/Bhaskar-maity/SanskritFy/blob/master/Screenshot%201.png)
+![screenshot](https://github.com/Bhaskar-maity/SanskritFy/blob/master/Screenshot%202.png)
 
 ## Technologies Used -
  ###### Back-end : Node  js, Express JS
@@ -26,7 +26,7 @@ Check out the demo gif for a quick example of how  works.
   #### Install NodeJS
   #### Clone the repository
   ```bash
-  git clone https://github.com/Bhaskar-maity/ChatiFy.git
+  git clone https://github.com/Bhaskar-maity/SanskritFy.git
   ```
   ### `Go to /server/ folder`
   #### Install dependencies
